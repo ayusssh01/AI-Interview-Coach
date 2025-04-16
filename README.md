@@ -1,45 +1,50 @@
-# [Interview.io](https://interview-io-six.vercel.app/) 🎓🧑‍💻
+# 🤖 AI Interview Coach
 
-The project **"AI-Powered Real-Time Interview Coach"** is an innovative virtual platform designed to help users improve their interview skills through a range of interactive and AI-driven features.
+Welcome to **AI Interview Coach**, a smart, modern platform designed to help job seekers and learners practice and prepare for real-world interviews using AI-powered tools and interactive mock sessions.
 
-This project has been made by all of our collaborators of **Team Codeblooded** & has been submitted for **HackOdisha'24**.
+---
 
-## 🚀 Live here - https://interview-io-six.vercel.app/
+## 🔍 What This Project Does
 
-## **🏆 This project has won 1st Place in HackOdisha 2k24!!**
+This platform allows users to:
 
+- 🎤 Practice interviews in real-time (using video & audio)
+- 📋 Attempt smart quizzes customized to any field or domain
+- 🧠 Chat with an AI assistant that asks interview-style questions
+- 👤 Track skills, completed sessions, and interview readiness
+- ⚡ Prepare in a hands-on, realistic environment – solo or with peers
 
-## 🌟 Features
+---
 
-- 💻 **Simulated Interview Environment** : The platform provides a **real-time** or **peer-to-peer** interview experience, allowing users to practice in a lifelike scenario using their webcam and microphone. This helps users develop time management skills and offers a flexible and convenient.
-  
-- 🤔 **Quiz Section:** The quiz system generates **dynamic questions** based on the user's inputs, **covering any domain**. The adaptive difficulty feature adjusts the complexity of questions in real-time, making it suitable for users at different experience levels.
+## 🚀 Why This Project?
 
-- ❓ **AI-Based Q&A Section**: In this section, users receive **AI-Based real-time, context-specific interview questions** based on their skill level. The AI adjusts the difficulty based on the quality of the user’s responses, ensuring a personalized learning experience.
+Cracking interviews takes more than theory — it needs practice, pressure handling, and clarity.  
+**AI Interview Coach** brings all of that into one place. No mentors needed. No scheduling hassle.  
+Just log in, practice, and grow.
 
-- 🤵 **User Profile:** Each user has a profile that tracks personal information, professional background, core skills, and the number of completed or upcoming interviews. This helps users stay organized and prepared for their interviews.
+---
 
-- 🚀 **Future Enhancements:** Planned future improvements include a real-time notification system, enhanced quiz security, video call functionality that supports more participants, and better integration between the overview page and upcoming interviews.
+## 🧱 Tech Stack
 
-## 🛠️ Tech Stack
+| Part        | Tech Used                        |
+|-------------|----------------------------------|
+| Frontend    | React.js (Vite) + Tailwind CSS   |
+| Backend     | Node.js + Express.js             |
+| Database    | MongoDB                          |
+| AI Engine   | Google Gemini API                |
+| Real-time   | Socket.io                        |
+| Hosting     | Vercel (frontend) + Render (backend)
 
-- **Frontend**: Vite ReactJs ⚛️, Tailwind CSS 🎨, Tailwind 🔄, SCSS 🎭
-- **Backend**: Node.js 🟢, Express 🚂
-- **Database**: MongoDB 🍃
-- **AI Integration**: Google Gemini API 🧠
-- **Testing**: Postman 📮
-- **Deployment** - Vercel & Render 🚀
-- **Socket.io** - For the chat and video calling functionalities 💬
+---
+
+## 🛠️ How to Run Locally
 
 ## 🚀 Getting Started Locally
 
-### Project Setup
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/abhrajit2004/Interview.io.git
-   ```
+### 1️⃣ Clone the Project
+```bash
+git clone https://github.com/ayusssh01/AI-Interview-Coach.git
+cd AI-Interview-Coach
 
 ### Frontend Setup
 
@@ -71,39 +76,15 @@ This project has been made by all of our collaborators of **Team Codeblooded** &
 
 ### Backend Setup
 
-1. Navigate to backend(**In Another Terminal**)
+cd backend
+npm install
 
-   ```bash
-   cd backend
-   ```
+🔐 Create .env in /backend/:
 
-2. Install dependencies:
-
-   ```bash
-   npm i
-   ```
-
-3. Set up environment variables:
-   Create a `.env` file in the **backend directory** and add **your required environment variables** according to this format: 
-
-   ```bash
-   JWT_SECRET=<your-preferred-jwt-secret-key>
-   MONGODB_URI=<your-mongodb-connection-string>
-   MONGODB_URI1=<optional>
-   GEMINI_API_KEY=<your-gemini-api-key>
-   CLOUDINARY_API_KEY= 
-   CLOUDINARY_API_SECRET=
-   CLOUDINARY_NAME=
-   NODE_ENV=development
-   PORT=3000 
-   ```
-    Format also present in the backend folder in the file [.env.example.backend](./backend/.env.example.backend)
-    <br>
-
-4. Start the server:
-   ```bash
-   npm run dev
-   ```
+JWT_SECRET=your_secret
+MONGODB_URI=your_mongo_uri
+GEMINI_API_KEY=your_gemini_key
+PORT=3000
 
 ## 🌐 API Endpoints
 
@@ -124,18 +105,8 @@ This project has been made by all of our collaborators of **Team Codeblooded** &
 - `POST /api/v1/questions/generate-questions`: Generate questions for a quiz
 - `POST /api/v1/questions/chat`: Interact with AI chatbot
   
-## 😎 Members of our Team Codeblooded 👥
-- **Abhrajit Gupta** - [@abhrajitgupta](https://github.com/abhrajit2004)
-- **Shuvadipta Das** - [@shuvadiptadas](https://github.com/5h0ov)
-- **Ankita Sikdar**  - [@ankitasikdar](https://github.com/AnkitaSikdar005)
-- **Megha Karmakar** - [@meghakarmakar](https://github.com/meghakarmakar)
-## 🤝 Contributing
 
 We welcome contributions to this project! Please feel free to submit issues, fork the repository and send pull requests!
-
-## 📄 License
-
-This project is licensed under: [MIT licensed](./LICENSE)
 
 ## 🙏 Acknowledgements
 
@@ -144,4 +115,4 @@ This project is licensed under: [MIT licensed](./LICENSE)
 - [Vercel](https://vercel.com/) for frontend deployment
 - [Render](https://render.com/) for backend deployment
 
-Have a great job cracking journey with [Interview.io](https://interview-io-six.vercel.app/)! 🎓✨
+
