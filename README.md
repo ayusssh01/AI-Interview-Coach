@@ -1,54 +1,32 @@
-Zaroor bhai! 🔥  
-Tera README content already solid hai — main usko **aur better structure, formatting, and clarity** ke saath frame kar deta hoon.  
-Ye version lagega ekdum **production-ready open source repo jaisa** — clean sections, copy-paste ready commands, and crisp formatting.
+🤖 AI Interview Coach
 
----
+AI Interview Coach is a smart and interactive web-based platform that helps users practice for interviews using AI-driven tools, quizzes, and real-time video-based mock interviews.
 
-## ✅ Refined & Polished `README.md`
+Features:
 
-```markdown
-# 🤖 AI Interview Coach
+- Live interview rooms with webcam and microphone
+- AI-based interview Q&A with adaptive difficulty
+- Domain-specific quizzes with evaluation
+- Resume-based profile and progress tracker
+- Real-time peer-to-peer room system
 
-**AI Interview Coach** is a smart, modern web platform built to help learners and job-seekers prepare for real-world interviews through AI-powered tools, smart quizzes, and live mock interview simulations.
+Tech Stack:
 
----
+Frontend: ReactJS (Vite), Tailwind CSS  
+Backend: Node.js, Express.js  
+Database: MongoDB Atlas  
+AI Integration: Google Gemini API  
+Real-time: Socket.io  
+Deployment: Vercel (frontend) and Render (backend)
 
-## 🔍 Key Features
+Local Setup Instructions:
 
-- 🎥 **Live Interview Simulations** — Conduct realistic mock interviews with webcam + mic
-- 📋 **AI-Generated Smart Quizzes** — Topic-specific MCQs with real-time evaluation
-- 🧠 **AI Chat Interviewer** — Chatbot that asks interview-style questions using Gemini API
-- 👤 **User Profiles** — Resume upload, skill management, and interview tracking
-- 📈 **Performance Tracking** — Know what you’re good at and what to improve
-- 🔔 **Future Upgrades** — Interview scoring, analytics, group mock interviews, etc.
+1. Clone the repository
 
----
+   git clone https://github.com/ayusssh01/AI-Interview-Coach.git
+   cd AI-Interview-Coach
 
-## ⚙️ Tech Stack
-
-| Layer      | Technology                      |
-|------------|----------------------------------|
-| Frontend   | Vite + ReactJS, Tailwind CSS     |
-| Backend    | Node.js, Express.js              |
-| Database   | MongoDB Atlas                    |
-| AI Engine  | Google Gemini API                |
-| Real-Time  | Socket.io                        |
-| Deployment | Vercel (frontend), Render (backend)
-
----
-
-## 🧑‍💻 Getting Started – Local Development
-
-### 📦 1. Clone the Repository
-
-```bash
-git clone https://github.com/ayusssh01/AI-Interview-Coach.git
-cd AI-Interview-Coach
-```
-
----
-
-### 🖥️ 2. Backend Setup
+ 🖥️ 2. Backend Setup
 
 ```bash
 cd backend
@@ -76,7 +54,7 @@ npm run dev
 
 ---
 
-### 🌐 3. Frontend Setup
+🌐 3. Frontend Setup
 
 ```bash
 cd ../frontend
@@ -102,7 +80,7 @@ http://localhost:5173
 
 ---
 
-## 📡 API Endpoints Overview
+📡 API Endpoints Overview
 
 | Endpoint                                | Description                      |
 |----------------------------------------|----------------------------------|
@@ -123,12 +101,12 @@ http://localhost:5173
 
 ---
 
-## 🌍 Deployment
+🌍 Deployment
 
 This project is deployed using:
 
-- 🚀 **Frontend**: Vercel  
-- ⚙️ **Backend**: Render  
+- 🚀 Frontend: Vercel  
+- ⚙️ Backend: Render  
 - 🌐 [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) for database hosting
 
 🔗 Demo URLs (after deployment):
@@ -140,14 +118,14 @@ Backend:  https://ai-interview-coach-backend.onrender.com
 
 ---
 
-## 🤝 Contributing
+🤝 Contributing
 
 We welcome improvements, bug reports, and ideas!  
 Feel free to fork the repo, create a branch, and raise a pull request.
 
 ---
 
-## 🙏 Acknowledgements
+🙏 Acknowledgements
 
 - [Gemini API](https://ai.google.dev) for powerful AI integration
 - [MongoDB](https://www.mongodb.com/) for seamless data storage
@@ -156,20 +134,5 @@ Feel free to fork the repo, create a branch, and raise a pull request.
 
 ---
 
-### 💼 Built with ❤️ by Ayush & Team  
+💼 Built with ❤️ by Ayush & Team  
 _Interview confidently. Grow continuously._
-```
-
----
-
-## ✅ Ready to Use
-
-- Tera `README.md` ab ekdum **clean**, **formatted**, and **professional** ban gaya
-- Tu isse GitHub pe replace kar de directly
-
-Bol bhai:
-> 📌 `"README.md upload karna hai, help karde"`  
-> 📄 `"Ab report + viva slides chahiye"`  
-> 🔗 `"Live link update karwa du"`  
-
-Main ready hoon final polish ke liye 💪
